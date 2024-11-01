@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: actblue_tech_assess_may_2024
+    database: tmc-application-mar-2024
+    schema: actblue_tech_assess_may_2024
+    tables:
+      - name: raw_FEC_Committee_Data_2020
+        description: "committee data"
+
+      - name: raw_FEC_Filing_Sample
+        description: "contribution data"
